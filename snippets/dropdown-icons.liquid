@@ -1,0 +1,9 @@
+{%- comment -%}<template x-if="{{ link_handle }}">
+  {% render 'chevron-up' %}
+</template>
+<template x-if="!{{ link_handle }}">
+  {% render 'chevron-down' %}
+</template>
+{%- endcomment -%}
+
+{% render 'chevron-down' %}
